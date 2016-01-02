@@ -1,5 +1,5 @@
-var Sayings;
-(function (Sayings) {
+var MyModule;
+(function (MyModule) {
     var Person = (function () {
         function Person(firstName, lastName) {
             this.firstName = firstName;
@@ -10,7 +10,7 @@ var Sayings;
         };
         return Person;
     })();
-    Sayings.Person = Person;
+    MyModule.Person = Person;
     var Greeter = (function () {
         function Greeter(message, person) {
             this.greeting = message;
@@ -20,10 +20,10 @@ var Sayings;
         };
         return Greeter;
     })();
-    Sayings.Greeter = Greeter;
-})(Sayings || (Sayings = {}));
-var person = new Sayings.Person("John", "Smith");
-var greeter = new Sayings.Greeter("person", person);
+    MyModule.Greeter = Greeter;
+})(MyModule || (MyModule = {}));
+var person = new MyModule.Person("John", "Smith");
+var greeter = new MyModule.Greeter("friend", person);
 console.log(greeter.greet());
 
 //# sourceMappingURL=run.js.map

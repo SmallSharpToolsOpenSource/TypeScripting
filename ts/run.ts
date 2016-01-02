@@ -1,4 +1,4 @@
-module Sayings {
+module MyModule {
     export class Person {
         firstName: string;
         lastName: string;
@@ -22,6 +22,7 @@ module Sayings {
     }
 }
 
-var person = new Sayings.Person("John", "Smith");
-var greeter = new Sayings.Greeter("person", person);
+
+var person = new MyModule.Person("John", "Smith");
+var greeter = new MyModule.Greeter("friend", person);
 console.log(greeter.greet());

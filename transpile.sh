@@ -1,6 +1,8 @@
 #!/bin/sh
 
-# rm run.js*; tsc  --sourceMap run.ts; ls
+# Manual transpile with tsc
+# tsc --sourceMap ts/run.ts --outDir js/
 
-rm run.js*; gulp; ls
+# Task transpile with Gulp
+gulp
 
