@@ -16,14 +16,22 @@ TypeScript files to trigger transpiling each time a change is made.
 
  * https://code.visualstudio.com
  * http://gulpjs.com
+
  
+## How to Use
  
- ### Author
+ Download and install VS Code for your platform. Then get the latest version of
+ Node and install TypeScript and Gulp. You can install them with `package.json`
+ for use with this project. Then open the folder for this repository and set
+ a breakpoint in the TypeScript file in the `ts` folder. Then use VS Code to
+ start the debugging process and see how it stops at the breakpoint and allows
+ you to inspect variables. 
  
- Brennan Stehling - http://twitter.com/brennansv
+### Author
  
- ### License
+Brennan Stehling - http://twitter.com/brennansv
  
- MIT
+### License
  
+MIT
  
