@@ -9,8 +9,13 @@
   "author": "Brennan Stehling",
   "license": "MIT",
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-typescript": "^0.8.0",
     "gulp": "^3.9.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-typescript": "^2.10.0"
+  },
+  "dependencies": {
+    "mysql": "^2.10.0"
   }
 }
